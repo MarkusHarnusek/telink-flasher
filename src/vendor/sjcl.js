@@ -4009,3 +4009,6 @@ sjcl.ecc.ecdsa.secretKey.prototype = {
     return "ecdsa";
   }
 };
+
+// Added for the Vite/TypeScript build: expose the library as an ES module.
+export default sjcl;
